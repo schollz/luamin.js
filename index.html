@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luamin Test</title>
+  <script defer src="./index.mjs" type="module"></script>
+</head>
+<body>
+  <script>
+    // Test minification
+    const luaCode = "print('hi, world')\na    = 3;";
+    console.log('Minified Lua Code:', luamin.minify(luaCode));
+  </script>
+</body>
+</html>
